@@ -1,0 +1,7 @@
+cudatoolkit==10.0
+cudnn==7.6.5
+tensorflow-gpu==1.13.1
+keras-gpu==2.1.5
+opencv-python==3.3.1
+matplotlib==3.3.4
+pillow==8.2.0
