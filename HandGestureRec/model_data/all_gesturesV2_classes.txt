@@ -1,0 +1,14 @@
+gesture0
+gesture1
+gesture2
+gesture3
+gesture4
+gesture5
+gesture6
+gestureOK
+gestureR1
+gestureR2
+gestureR3
+gestureR4
+gestureR5
+gestureR6
