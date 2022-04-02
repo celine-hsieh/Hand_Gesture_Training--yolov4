@@ -1,0 +1,28 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="PT_INFORM" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="PT_INFORM" msdata:IsDataSet="true" msdata:Locale="en-US">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="PT_RECORD">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Name" type="xs:string" minOccurs="0" />
+              <xs:element name="J1" type="xs:double" minOccurs="0" />
+              <xs:element name="J2" type="xs:double" minOccurs="0" />
+              <xs:element name="J3" type="xs:double" minOccurs="0" />
+              <xs:element name="J4" type="xs:double" minOccurs="0" />
+              <xs:element name="J5" type="xs:double" minOccurs="0" />
+              <xs:element name="J6" type="xs:double" minOccurs="0" />
+              <xs:element name="X" type="xs:double" minOccurs="0" />
+              <xs:element name="Y" type="xs:double" minOccurs="0" />
+              <xs:element name="Z" type="xs:double" minOccurs="0" />
+              <xs:element name="Rx" type="xs:double" minOccurs="0" />
+              <xs:element name="Ry" type="xs:double" minOccurs="0" />
+              <xs:element name="Rz" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

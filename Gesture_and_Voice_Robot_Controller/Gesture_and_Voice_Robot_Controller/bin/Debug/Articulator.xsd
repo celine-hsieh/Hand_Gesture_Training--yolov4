@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ARTICULATOR" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="ARTICULATOR" msdata:IsDataSet="true" msdata:Locale="en-US">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DH_SETUP">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DHa1" type="xs:double" minOccurs="0" />
+              <xs:element name="DHa2" type="xs:double" minOccurs="0" />
+              <xs:element name="DHa3" type="xs:double" minOccurs="0" />
+              <xs:element name="DHd3" type="xs:double" minOccurs="0" />
+              <xs:element name="DHd4" type="xs:double" minOccurs="0" />
+              <xs:element name="DHd6" type="xs:double" minOccurs="0" />
+              <xs:element name="DHoffset" type="xs:double" minOccurs="0" />
+              <xs:element name="J4J5COUPLING" type="xs:double" minOccurs="0" />
+              <xs:element name="J5J6COUPLING" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="TOOL_PARMS">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TLdx" type="xs:double" minOccurs="0" />
+              <xs:element name="TLdy" type="xs:double" minOccurs="0" />
+              <xs:element name="TLdz" type="xs:double" minOccurs="0" />
+              <xs:element name="TLrx" type="xs:double" minOccurs="0" />
+              <xs:element name="TLry" type="xs:double" minOccurs="0" />
+              <xs:element name="TLrz" type="xs:double" minOccurs="0" />
+              <xs:element name="ABSEncJ1" type="xs:double" minOccurs="0" />
+              <xs:element name="ABSEncJ2" type="xs:double" minOccurs="0" />
+              <xs:element name="ABSEncJ3" type="xs:double" minOccurs="0" />
+              <xs:element name="ABSEncJ4" type="xs:double" minOccurs="0" />
+              <xs:element name="ABSEncJ5" type="xs:double" minOccurs="0" />
+              <xs:element name="ABSEncJ6" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="AXES_SETUP" msdata:IsDataSet="true" msdata:Locale="en-US">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="AXIS" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="PosToEncDir" type="xs:unsignedShort" minOccurs="0" />
+                    <xs:element name="RPM" type="xs:unsignedShort" minOccurs="0" />
+                    <xs:element name="PPR" type="xs:unsignedInt" minOccurs="0" />
+                    <xs:element name="Pitch" type="xs:double" minOccurs="0" />
+                    <xs:element name="GearRatio" type="xs:double" minOccurs="0" />
+                    <xs:element name="HighLimit" type="xs:double" minOccurs="0" />
+                    <xs:element name="LowLimit" type="xs:double" minOccurs="0" />
+                    <xs:element name="HighLimitOffset" type="xs:double" minOccurs="0" />
+                    <xs:element name="LowLimitOffset" type="xs:double" minOccurs="0" />
+                    <xs:element name="PulseMode" type="xs:unsignedShort" minOccurs="0" />
+                    <xs:element name="PulseWidth" type="xs:unsignedShort" minOccurs="0" />
+                    <xs:element name="CommandMode" type="xs:unsignedShort" minOccurs="0" />
+                    <xs:element name="OverTLUpSnrMode" type="xs:unsignedShort" minOccurs="0" />
+                    <xs:element name="OverTLDownSnrMode" type="xs:unsignedShort" minOccurs="0" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ENC_SETUP" msdata:IsDataSet="true" msdata:Locale="en-US">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ENC" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="wType" type="xs:unsignedShort" minOccurs="0" />
+                    <xs:element name="wAInverse" type="xs:unsignedShort" minOccurs="0" />
+                    <xs:element name="wBInverse" type="xs:unsignedShort" minOccurs="0" />
+                    <xs:element name="wCInverse" type="xs:unsignedShort" minOccurs="0" />
+                    <xs:element name="wABSwap" type="xs:unsignedShort" minOccurs="0" />
+                    <xs:element name="wInputRate" type="xs:unsignedShort" minOccurs="0" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="IO_SETUP">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="INPUTS" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="AXIS1_Ready" type="xs:string" minOccurs="0" />
+                    <xs:element name="AXIS2_Ready" type="xs:string" minOccurs="0" />
+                    <xs:element name="AXIS3_Ready" type="xs:string" minOccurs="0" />
+                    <xs:element name="AXIS4_Ready" type="xs:string" minOccurs="0" />
+                    <xs:element name="AXIS5_Ready" type="xs:string" minOccurs="0" />
+                    <xs:element name="AXIS6_Ready" type="xs:string" minOccurs="0" />
+                    <xs:element name="AXIS7_Ready" type="xs:string" minOccurs="0" />
+                    <xs:element name="AXIS8_Ready" type="xs:string" minOccurs="0" />
+                    <xs:element name="AXIS1_Alarm" type="xs:string" minOccurs="0" />
+                    <xs:element name="AXIS2_Alarm" type="xs:string" minOccurs="0" />
+                    <xs:element name="AXIS3_Alarm" type="xs:string" minOccurs="0" />
+                    <xs:element name="AXIS4_Alarm" type="xs:string" minOccurs="0" />
+                    <xs:element name="AXIS5_Alarm" type="xs:string" minOccurs="0" />
+                    <xs:element name="AXIS6_Alarm" type="xs:string" minOccurs="0" />
+                    <xs:element name="AXIS7_Alarm" type="xs:string" minOccurs="0" />
+                    <xs:element name="AXIS8_Alarm" type="xs:string" minOccurs="0" />
+                    <xs:element name="AXIS1_AbsRdy" type="xs:string" minOccurs="0" />
+                    <xs:element name="AXIS2_AbsRdy" type="xs:string" minOccurs="0" />
+                    <xs:element name="AXIS3_AbsRdy" type="xs:string" minOccurs="0" />
+                    <xs:element name="AXIS4_AbsRdy" type="xs:string" minOccurs="0" />
+                    <xs:element name="AXIS5_AbsRdy" type="xs:string" minOccurs="0" />
+                    <xs:element name="AXIS6_AbsRdy" type="xs:string" minOccurs="0" />
+                    <xs:element name="AXIS7_AbsRdy" type="xs:string" minOccurs="0" />
+                    <xs:element name="AXIS8_AbsRdy" type="xs:string" minOccurs="0" />
+                    <xs:element name="AXIS1_AbsBIT0" type="xs:string" minOccurs="0" />
+                    <xs:element name="AXIS2_AbsBIT0" type="xs:string" minOccurs="0" />
+                    <xs:element name="AXIS3_AbsBIT0" type="xs:string" minOccurs="0" />
+                    <xs:element name="AXIS4_AbsBIT0" type="xs:string" minOccurs="0" />
+                    <xs:element name="AXIS5_AbsBIT0" type="xs:string" minOccurs="0" />
+                    <xs:element name="AXIS6_AbsBIT0" type="xs:string" minOccurs="0" />
+                    <xs:element name="AXIS7_AbsBIT0" type="xs:string" minOccurs="0" />
+                    <xs:element name="AXIS8_AbsBIT0" type="xs:string" minOccurs="0" />
+                    <xs:element name="AXIS1_AbsBIT1" type="xs:string" minOccurs="0" />
+                    <xs:element name="AXIS2_AbsBIT1" type="xs:string" minOccurs="0" />
+                    <xs:element name="AXIS3_AbsBIT1" type="xs:string" minOccurs="0" />
+                    <xs:element name="AXIS4_AbsBIT1" type="xs:string" minOccurs="0" />
+                    <xs:element name="AXIS5_AbsBIT1" type="xs:string" minOccurs="0" />
+                    <xs:element name="AXIS6_AbsBIT1" type="xs:string" minOccurs="0" />
+                    <xs:element name="AXIS7_AbsBIT1" type="xs:string" minOccurs="0" />
+                    <xs:element name="AXIS8_AbsBIT1" type="xs:string" minOccurs="0" />
+                    <xs:element name="SERVOn" type="xs:string" minOccurs="0" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="OUTPUTS" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="AXIS1_Reset" type="xs:string" minOccurs="0" />
+                    <xs:element name="AXIS2_Reset" type="xs:string" minOccurs="0" />
+                    <xs:element name="AXIS3_Reset" type="xs:string" minOccurs="0" />
+                    <xs:element name="AXIS4_Reset" type="xs:string" minOccurs="0" />
+                    <xs:element name="AXIS5_Reset" type="xs:string" minOccurs="0" />
+                    <xs:element name="AXIS6_Reset" type="xs:string" minOccurs="0" />
+                    <xs:element name="AXIS7_Reset" type="xs:string" minOccurs="0" />
+                    <xs:element name="AXIS8_Reset" type="xs:string" minOccurs="0" />
+                    <xs:element name="AXIS1_ABSM" type="xs:string" minOccurs="0" />
+                    <xs:element name="AXIS2_ABSM" type="xs:string" minOccurs="0" />
+                    <xs:element name="AXIS3_ABSM" type="xs:string" minOccurs="0" />
+                    <xs:element name="AXIS4_ABSM" type="xs:string" minOccurs="0" />
+                    <xs:element name="AXIS5_ABSM" type="xs:string" minOccurs="0" />
+                    <xs:element name="AXIS6_ABSM" type="xs:string" minOccurs="0" />
+                    <xs:element name="AXIS7_ABSM" type="xs:string" minOccurs="0" />
+                    <xs:element name="AXIS8_ABSM" type="xs:string" minOccurs="0" />
+                    <xs:element name="AXIS1_ABSR" type="xs:string" minOccurs="0" />
+                    <xs:element name="AXIS2_ABSR" type="xs:string" minOccurs="0" />
+                    <xs:element name="AXIS3_ABSR" type="xs:string" minOccurs="0" />
+                    <xs:element name="AXIS4_ABSR" type="xs:string" minOccurs="0" />
+                    <xs:element name="AXIS5_ABSR" type="xs:string" minOccurs="0" />
+                    <xs:element name="AXIS6_ABSR" type="xs:string" minOccurs="0" />
+                    <xs:element name="AXIS7_ABSR" type="xs:string" minOccurs="0" />
+                    <xs:element name="AXIS8_ABSR" type="xs:string" minOccurs="0" />
+                    <xs:element name="AXIS1_BRK" type="xs:string" minOccurs="0" />
+                    <xs:element name="AXIS2_BRK" type="xs:string" minOccurs="0" />
+                    <xs:element name="AXIS3_BRK" type="xs:string" minOccurs="0" />
+                    <xs:element name="AXIS4_BRK" type="xs:string" minOccurs="0" />
+                    <xs:element name="AXIS5_BRK" type="xs:string" minOccurs="0" />
+                    <xs:element name="AXIS6_BRK" type="xs:string" minOccurs="0" />
+                    <xs:element name="AXIS7_BRK" type="xs:string" minOccurs="0" />
+                    <xs:element name="AXIS8_BRK" type="xs:string" minOccurs="0" />
+                    <xs:element name="System_Ready" type="xs:string" minOccurs="0" />
+                    <xs:element name="AUTO_MODE" type="xs:string" minOccurs="0" />
+                    <xs:element name="ABS_CLR" type="xs:string" minOccurs="0" />
+                    <xs:element name="SOFT_ON" type="xs:string" minOccurs="0" />
+                    <xs:element name="SOFT_OFF" type="xs:string" minOccurs="0" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
