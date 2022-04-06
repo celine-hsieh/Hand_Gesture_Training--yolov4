@@ -1,5 +1,7 @@
 # Hand_Gesture_Training-yolov4
- 
+
+https://user-images.githubusercontent.com/69034494/161987988-897eb631-9699-40dc-9368-6200e5a35245.mp4
+
 ## Purpose
 
 * issue 
@@ -30,6 +32,5 @@ Factory moving situation
 Log in to Google Drive and get image, xml and py files
 Prepare the corresponding environment
 
-https://user-images.githubusercontent.com/69034494/161987988-897eb631-9699-40dc-9368-6200e5a35245.mp4
 
 
