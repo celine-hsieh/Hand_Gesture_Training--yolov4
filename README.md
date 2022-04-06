@@ -2,16 +2,13 @@
 
 https://user-images.githubusercontent.com/69034494/161987988-897eb631-9699-40dc-9368-6200e5a35245.mp4
 
-<h1 align="center">
-<video id="videoFrame" src="https://user-images.githubusercontent.com/69034494/161987988-897eb631-9699-40dc-9368-6200e5a35245.mp4></video>
-<script src="./js/videoautoplay.js"></script> 
-<script>
-videoAutoPlay("#videoFrame",{
-  playOnClick:true,
-  allowMuted:true
-});
-</script>
-</h1>
+<div class="myvideo">
+   <video  style="display:block; width:100%; height:auto;" autoplay controls loop="loop">
+       <source src="https://user-images.githubusercontent.com/69034494/161987988-897eb631-9699-40dc-9368-6200e5a35245.mp4" type="video/mp4" />
+       <source src="{{ site.baseurl }}/media/2016-10-24-add-video-to-github-README/visualise_params.ogv" type="video/ogg" />
+       <source src="{{ site.baseurl }}/media/2016-10-24-add-video-to-github-README/visualise_params.webm"  type="video/webm"  />
+   </video>
+</div>
                   
 ## Purpose
 
