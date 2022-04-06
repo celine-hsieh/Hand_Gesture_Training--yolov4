@@ -2,13 +2,9 @@
 
 https://user-images.githubusercontent.com/69034494/161987988-897eb631-9699-40dc-9368-6200e5a35245.mp4
 
-<div class="myvideo">
-   <video  style="display:block; width:100%; height:auto;" autoplay controls loop="loop">
-       <source src="https://user-images.githubusercontent.com/69034494/161987988-897eb631-9699-40dc-9368-6200e5a35245.mp4" type="video/mp4" />
-       <source src="{{ site.baseurl }}/media/2016-10-24-add-video-to-github-README/visualise_params.ogv" type="video/ogg" />
-       <source src="{{ site.baseurl }}/media/2016-10-24-add-video-to-github-README/visualise_params.webm"  type="video/webm"  />
-   </video>
-</div>
+<video  style="display:block; width:100%; height:auto;" autoplay controls loop="loop">
+    <source src="https://user-images.githubusercontent.com/69034494/161987988-897eb631-9699-40dc-9368-6200e5a35245.mp4" type="video/mp4" />
+</video>
                   
 ## Purpose
 
