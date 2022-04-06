@@ -2,6 +2,17 @@
 
 https://user-images.githubusercontent.com/69034494/161987988-897eb631-9699-40dc-9368-6200e5a35245.mp4
 
+<h1 align="center">
+<video id="videoFrame" src="https://user-images.githubusercontent.com/69034494/161987988-897eb631-9699-40dc-9368-6200e5a35245.mp4></video>
+<script src="./js/videoautoplay.js"></script> 
+<script>
+videoAutoPlay("#videoFrame",{
+  playOnClick:true,
+  allowMuted:true
+});
+</script>
+</h1>
+                  
 ## Purpose
 
 * issue 
