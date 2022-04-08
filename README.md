@@ -26,7 +26,14 @@ https://user-images.githubusercontent.com/69034494/161987988-897eb631-9699-40dc-
     
         > In the second situation，when the scene is a relatively noisy construction site environment, because the sound cannot be well received, gesture recognition can be used to execute the written script in this situation, such as the path of stacking bricks.
 
-## Situational application
+## Speech Recognition
+
+| 表頭1 | 表頭2 | 表頭3 |
+|-------|:-----:|------:|
+| 左1   |  中1  |   右1 |
+| 左2   |  中2  |   右2 |
+| 左3   |  中3  |   右3 |
+
 Factory moving situation
     ***What is Euclidean Geometry?***
 Log in to Google Drive and get image, xml and py files
