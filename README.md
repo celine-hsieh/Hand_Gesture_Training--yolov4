@@ -55,7 +55,6 @@ Factory moving situation
 ## Training
 
 Training with Google Colab and Kaggle
-![image](https://user-images.githubusercontent.com/69034494/162375621-f833917b-a7a2-4dc7-a60f-043617832926.png)
 
 * Log in to Google Drive and get image, xml and py files
 * Prepare the corresponding environment
