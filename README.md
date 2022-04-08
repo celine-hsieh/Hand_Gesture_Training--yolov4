@@ -42,8 +42,17 @@ https://user-images.githubusercontent.com/69034494/161987988-897eb631-9699-40dc-
 | Pause | ✊ | Pause the current command action |
 | Cancel | 🤞 | Cancel the current voice command and re-identify |
 
-
+* Situation simulation: 
+    Suppose there is an operational situation where materials need to be moved from A (x=10,y=10,z=0) to B (x=20,y=20,z=0).
 Factory moving situation
+
+* Operation process: 
+    1. Manually input material point and destination point position on the user interface, and click the initialization command such as servo on.
+
+    2. After the mechanical equipment is ready, enter the following sequence in front of the camera: "☝" -> "👎" -> "✊" -> "✌" ->"🤏" -> "🤙" -> "👎" -> "✊" -> "✌"
+
+
+
     ***What is Euclidean Geometry?***
 Log in to Google Drive and get image, xml and py files
 Prepare the corresponding environment
