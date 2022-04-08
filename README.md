@@ -85,3 +85,15 @@ Training with Google Colab and Kaggle
 
 https://user-images.githubusercontent.com/69034494/162377082-d1663c78-855e-4b93-b315-b36493aedb0b.mp4
 
+## Conclusion
+
+1. When using Colab in the first half, it is necessary to keep the webpage open, which will affect the performance of the laptop. The second half moves to Kaggle training to solve this problem.
+2. Because it is not executed all at once, it cannot be drawn through the history parameter, and plt.plot cannot be displayed in the log result. If you use Kaggle to train from scratch and change the plot to saveimg, it should be able to solve the problem and get the pictures of acc and loss.
+3. The environment versions of Colab and Kaggle are newer than the version required for yolo training, so there will be an error caused by inconsistency of function parameters. It is necessary to add instructions to install the corresponding version and downgrade tensorflow and keras to execut.
+4. Colab's GPU limit is not clear, there have been cases where two accounts were restricted from using the GPU.
+
+## Recommendations for Future Research
+
+Data set can be expanded
+1. The gesture data set is too simple, and the recognition results are limited and inaccurate. It requires gestures on a white background and a certain angle to be recognized.
+2. The current model is that the training gesture data is not enough. In the future, more gestures from different people can be added to make the training more accurate.
