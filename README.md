@@ -31,10 +31,9 @@ https://user-images.githubusercontent.com/69034494/161987988-897eb631-9699-40dc-
 
 |Gesture Command | Purpose | 
 |-------|:-----:|
-| Move to the material point![image](https://user-images.githubusercontent.com/69034494/162354295-aec3a1cd-69be-4681-925a-bf87ba165484.png)
-   |  The robot arm moves to the starting position for moving materials  |
+| Move to the material point ☝ |  The robot arm moves to the starting position for moving materials  |
 | 左2   |  中2  |
-| 左3   |  中3  |
+| 左3   |  中3  |👌
 
 Factory moving situation
     ***What is Euclidean Geometry?***
