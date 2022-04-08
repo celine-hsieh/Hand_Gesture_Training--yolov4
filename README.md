@@ -30,7 +30,7 @@ https://user-images.githubusercontent.com/69034494/161987988-897eb631-9699-40dc-
 ## Gesture Recognition
 
 | Command | Gesture | Purpose | 
-|-------|:-----:|-----:|
+|-------|:-----:|-------|
 | Move to material point |  ☝  | The robot arm moves to the starting position for moving materials  |
 | Move to destination |  🤙  | The robotic arm moves to the destination where the material is stacked |
 | Start operation  |  🖐  | Activate the robot arm (servo on) |
