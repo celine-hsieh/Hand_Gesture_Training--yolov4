@@ -82,5 +82,6 @@ Training with Google Colab and Kaggle
 ![image](https://user-images.githubusercontent.com/69034494/162376791-ef01bb75-def6-4e3e-90ad-32991fa6fe18.png)
 
 * Final result: open and run yolo.py (first) and video.py (later)
+
 https://user-images.githubusercontent.com/69034494/162377082-d1663c78-855e-4b93-b315-b36493aedb0b.mp4
 
