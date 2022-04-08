@@ -29,11 +29,19 @@ https://user-images.githubusercontent.com/69034494/161987988-897eb631-9699-40dc-
 
 ## Gesture Recognition
 
-|Gesture Command | Purpose | 
-|-------|:-----:|
-| Move to the material point ☝ |  The robot arm moves to the starting position for moving materials  |
-| 左2   |  中2  |
-| 左3   |  中3  |👌
+| Command | Gesture | Purpose | 
+|-------|:-----:|-----:|
+| Move to material point |  ☝  | The robot arm moves to the starting position for moving materials  |
+| Move to destination |  🤙  | The robotic arm moves to the destination where the material is stacked |
+| Start operation  |  🖐  | Activate the robot arm (servo on) |
+| End operation | ✋ | Close the robot arm (servo off) |
+| Moving down | 👎 | Move the robotic arm down to the material position |
+| Carry | 🤏 | Close the gripper of the robotic arm |
+| Drop | ✌ | Open the gripper of the robotic arm |
+| Confirm | 👌 | Confirm execution of voice commands |
+| Pause | ✊ | Pause the current command action |
+| Cancel | 🤞 | Cancel the current voice command and re-identify |
+
 
 Factory moving situation
     ***What is Euclidean Geometry?***
