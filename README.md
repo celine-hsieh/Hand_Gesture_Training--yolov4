@@ -49,7 +49,8 @@ Factory moving situation
 * Operation process: 
     1. Manually input material point and destination point position on the user interface, and click the initialization command such as servo on.
 
-    2. After the mechanical equipment is ready, enter the following sequence in front of the camera: "☝" -> "👎" -> "✊" -> "✌" ->"🤏" -> "🤙" -> "👎" -> "✊" -> "✌"
+    2. After the mechanical equipment is ready, enter the following sequence in front of the camera: 
+        "☝" -> "👎" -> "✊" -> "✌" ->"🤏" -> "🤙" -> "👎" -> "✊" -> "✌"
 
 ## Training
 
