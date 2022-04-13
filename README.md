@@ -1,5 +1,6 @@
 # Hand_Gesture_Training-yolov4
 
+Use yolov4 to train gesture recognition, which is used to control the robot arm in smart construction to solve the problem of insufficient manpower in construction industry
 https://user-images.githubusercontent.com/69034494/161987988-897eb631-9699-40dc-9368-6200e5a35245.mp4
 
 ## Purpose
