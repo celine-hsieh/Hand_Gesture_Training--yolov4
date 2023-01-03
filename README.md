@@ -37,8 +37,8 @@ https://user-images.githubusercontent.com/69034494/161987988-897eb631-9699-40dc-
 | Move to destination |  🤙  | The robotic arm moves to the destination where the material is stacked |
 | Start operation  |  🖐  | Activate the robot arm (servo on) |
 | End operation | ✋ | Close the robot arm (servo off) |
-| Moving down | 👎 | Move the robotic arm down to the material position |
-| Carry | 🤏 | Close the gripper of the robotic arm |
+| Down | 👎 | Move the robotic arm down to the material position |
+| Clamp | 🤏 | Close the gripper of the robotic arm |
 | Drop | ✌ | Open the gripper of the robotic arm |
 | Confirm | 👌 | Confirm execution of voice commands |
 | Pause | ✊ | Pause the current command action |
